@@ -1,0 +1,24 @@
+---
+manufacturer: i-PRO
+model: WV-S6530N
+slug: i-pro-wv-s6530n
+part_number: WV-S6530N
+u_height: 0
+is_full_depth: false
+airflow: passive
+weight: 4800
+weight_unit: g
+front_image: true
+interfaces:
+  - name: eth0
+    type: 100base-tx
+    poe_mode: pd
+    poe_type: type2-ieee802.3at
+    description: max 22 W
+power-ports:
+  - name: AC IN
+    type: hardwired
+    maximum_draw: 43
+    description: AC 24 V, 50/60 Hz, 2.7 A
+comments: >
+  [i-PRO WV-S6530N datasheet](https://i-pro.com/products_and_solutions/en/surveillance/products/wv-s6530n)

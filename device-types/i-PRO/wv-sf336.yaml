@@ -8,6 +8,7 @@ is_full_depth: false
 airflow: passive
 weight: 410
 weight_unit: g
+front_image: true
 interfaces:
   - name: eth0
     type: 100base-tx
